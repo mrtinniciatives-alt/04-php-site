@@ -15,7 +15,9 @@ A responsive, multi-page PHP website for the fictional business **MR T INNICIATI
 - JSON Lines storage for contact submissions
 - Post/Redirect/Get submission flow and success feedback
 - Password-protected local messages viewer
-- Responsive, modern CSS layout
+- Responsive, modern CSS layout with improved color, hover, and entrance animations
+- Automatic home-page image slider with original copyright-free SVG artwork
+- Slider controls, accessible labels, and reduced-motion support
 - Escaped output using a reusable `e()` helper
 
 ## Tech stack
@@ -52,8 +54,14 @@ A responsive, multi-page PHP website for the fictional business **MR T INNICIATI
 ```text
 04-php-site/
 ├── assets/
-│   └── css/
-│       └── style.css
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   ├── concept-slider.svg
+│   │   ├── strategy-slider.svg
+│   │   └── digital-slider.svg
+│   └── js/
+│       └── slider.js
 ├── includes/
 │   ├── config.php
 │   ├── data.php

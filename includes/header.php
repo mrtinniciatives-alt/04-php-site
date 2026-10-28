@@ -9,6 +9,7 @@ require_once __DIR__ . '/functions.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= e($pageTitle) ?> | <?= e($businessName) ?></title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/slider.js" defer></script>
 </head>
 <body>
     <header class="site-header">

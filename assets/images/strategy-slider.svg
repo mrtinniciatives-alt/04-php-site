@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" role="img" aria-label="Abstract business strategy background">
+  <defs><linearGradient id="bg2" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#13243a"/><stop offset="1" stop-color="#28627a"/></linearGradient></defs>
+  <rect width="1600" height="800" fill="url(#bg2)"/>
+  <g fill="#d8b96a" opacity=".32"><rect x="920" y="480" width="140" height="320" rx="12"/><rect x="1080" y="350" width="140" height="450" rx="12"/><rect x="1240" y="210" width="140" height="590" rx="12"/><rect x="1400" y="110" width="140" height="690" rx="12"/></g>
+  <path d="M820 610 C1000 560 1080 430 1240 390S1450 230 1570 170" fill="none" stroke="#f7df9a" stroke-width="16" stroke-linecap="round" opacity=".75"/>
+  <circle cx="820" cy="610" r="24" fill="#fff" opacity=".85"/><circle cx="1240" cy="390" r="24" fill="#fff" opacity=".85"/><circle cx="1570" cy="170" r="24" fill="#fff" opacity=".85"/>
+  <circle cx="280" cy="210" r="150" fill="#78a7a8" opacity=".16"/><circle cx="280" cy="210" r="230" fill="none" stroke="#fff" opacity=".08" stroke-width="30"/>
+</svg>

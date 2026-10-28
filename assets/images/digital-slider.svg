@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" role="img" aria-label="Abstract digital design background">
+  <defs><linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b3142"/><stop offset=".7" stop-color="#1f5a63"/><stop offset="1" stop-color="#d48a4d"/></linearGradient></defs>
+  <rect width="1600" height="800" fill="url(#bg3)"/>
+  <g opacity=".9"><rect x="820" y="150" width="560" height="420" rx="24" fill="#edf3ef"/><rect x="855" y="190" width="490" height="290" rx="12" fill="#142736"/><circle cx="1360" cy="620" r="170" fill="#eab06a" opacity=".7"/></g>
+  <g fill="#7bd0c1"><circle cx="910" cy="250" r="18"/><circle cx="950" cy="250" r="18" opacity=".75"/><circle cx="990" cy="250" r="18" opacity=".5"/></g>
+  <path d="M910 390h180M910 430h340M910 470h260" stroke="#edf3ef" stroke-width="18" stroke-linecap="round" opacity=".7"/>
+  <g fill="none" stroke="#fff"><path d="M120 650L380 390l180 180 220-250" stroke-width="12" opacity=".14"/><circle cx="380" cy="390" r="20" opacity=".25"/><circle cx="780" cy="320" r="20" opacity=".25"/></g>
+</svg>
