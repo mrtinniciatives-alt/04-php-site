@@ -284,6 +284,81 @@ h2 {
     border: 1px solid #efc0bb;
 }
 
+/* Protected messages page */
+.login-panel {
+    max-width: 520px;
+}
+
+.login-form {
+    max-width: 420px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 800;
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font: inherit;
+}
+
+.messages-toolbar {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.count-badge {
+    padding: 0.35rem 0.7rem;
+    color: var(--white);
+    background: var(--accent-dark);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+
+.secondary-button {
+    border: 0;
+    cursor: pointer;
+}
+
+.messages-table-wrap {
+    overflow-x: auto;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+}
+
+.messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 920px;
+}
+
+.messages-table th,
+.messages-table td {
+    padding: 0.85rem 1rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--line);
+}
+
+.messages-table th {
+    background: var(--cream);
+}
+
+.messages-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
 @media (max-width: 720px) {
     .site-header {
         align-items: flex-start;
