@@ -1,11 +1,13 @@
 <?php
+declare(strict_types=1);
+
 $pageTitle = 'Home';
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/header.php';
 ?>
 <section class="hero">
     <div>
-        <p class="eyebrow">Welcome to <?= htmlspecialchars($businessName) ?></p>
+        <p class="eyebrow">Welcome to <?= e($businessName) ?></p>
         <h1>Ideas made practical.</h1>
         <p>We turn ambitious concepts into clear, useful solutions for modern businesses.</p>
         <a class="button" href="services.php">Explore our services</a>
